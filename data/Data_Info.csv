@@ -1,0 +1,17 @@
+﻿Variable,Units,Note
+Group,dummy,"0 = Recreational, 1 = Elite"
+Speed,dummy,"0 = 12 km/h, 1 = 20 km/h"
+Shoe,dummy,"0 = Barefoot, 1 = Shod"
+Footstrike,dummy,"0 = RFS, 1 = NRFS"
+Age,years,-
+Mass,kg,-
+Height,cm,-
+Running.Economy,mL O2/kg/km,-
+10K.PB,min,-
+Contact.Time,sec,-
+BP.ratio,ratio,Ratio of braking time to propulsion time
+LU.ratio,ratio,Ratio of loading time to unloading time
+HV.TD,sec,Horizontal and vertical force transition timing difference
+BP.to.LU,ratio,Ratio of BP.ratio and LU.ratio
+SB,%,"Average of UP.vel and BrPu.time (Cavagna and Legramandi, 2015)"
+SM.Fit,Newtons,"Root mean-squared error for best-fit spring-mass vGRF via NLR for shoe/speed groups of steps (Burns et al., 2021)"
